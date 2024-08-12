@@ -12,6 +12,8 @@ const BreweryCard = ({brewery}) => {
       <iframe src={brewery.website_url} />
       <p>{brewery.phone}</p>
       <p>{brewery.address_1}</p>
+      <p>{brewery.city}</p>
+      <p>{brewery.state}</p>
       <Heart isClick={isClick} onClick={() => setClick(!isClick)} />
 
     </div>
